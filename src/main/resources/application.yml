@@ -1,0 +1,17 @@
+# 端口
+server:
+  port: 8080
+
+
+happy:
+  code:
+    swagger:
+      group: ${spring.application.name}
+      base-package: cool.happycoding.jenkins.plus
+      title: jenkins-plus-api
+      description: Jenkins Plus
+      version: 1.0
+      contact:
+        name: happycoding
+        email: happycoding@aliyun.com
+      enable: true
